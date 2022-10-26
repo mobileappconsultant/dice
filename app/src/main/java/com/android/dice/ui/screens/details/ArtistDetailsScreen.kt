@@ -8,6 +8,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
@@ -16,16 +19,22 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.hilt.navigation.compose.hiltViewModel
 import coil.annotation.ExperimentalCoilApi
 import com.android.dice.R
+import com.android.dice.ui.composable.AlbumList
+import com.android.dice.ui.composable.DetailsTile
+import com.android.dice.ui.composable.FullScreenProgress
 import com.android.dice.ui.model.Artist
-import com.android.dice.ui.theme.primaryTextColor
-import com.android.dice.ui.theme.secondaryTextColor
+import com.android.dice.ui.viewmodel.AlbumSearchViewModel
 
 @ExperimentalCoilApi
 @Composable
@@ -36,6 +45,7 @@ fun ArtistDetailsScreen(artist: Artist, onBackPressed: () -> Unit) {
     ) {
         Column(
             Modifier
+                .verticalScroll(rememberScrollState())
                 .fillMaxSize()
         ) {
             TopAppBar {
@@ -78,27 +88,33 @@ fun ArtistDetailsScreen(artist: Artist, onBackPressed: () -> Unit) {
                     type = stringResource(id = R.string.tags),
                     value = artist.tags.joinToString(", ")
                 )
+
+                ArtistAlbum(artist.id)
             }
         }
     }
 }
 
 @Composable
-fun DetailsTile(type: String, value: String) {
-    Column(Modifier.fillMaxWidth()) {
-        Text(
-            text = type,
-            style = MaterialTheme.typography.caption,
-            fontWeight = FontWeight.Medium,
-            color = MaterialTheme.colors.secondaryTextColor
-        )
-        Spacer(modifier = Modifier.height(4.dp))
-        Text(
-            text = value,
-            style = MaterialTheme.typography.body1,
-            fontWeight = FontWeight.Medium,
-            color = MaterialTheme.colors.primaryTextColor
+fun ArtistAlbum(id: String) {
+    val albumViewModel = hiltViewModel<AlbumSearchViewModel>()
+
+    val loading by albumViewModel.loading.collectAsState()
+
+    val albums by albumViewModel.result.collectAsState()
+
+    LaunchedEffect(Unit) {
+        albumViewModel.getAlbum(id)
+    }
+
+    if (loading) {
+        FullScreenProgress(
+            modifier = Modifier
+                .fillMaxWidth()
+                .wrapContentHeight()
         )
         Spacer(modifier = Modifier.height(16.dp))
     }
+
+    AlbumList(albums)
 }

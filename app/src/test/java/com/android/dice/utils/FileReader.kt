@@ -1,4 +1,4 @@
-package com.android.dice
+package com.android.dice.utils
 
 import java.io.InputStreamReader
 

@@ -1,6 +1,6 @@
 package com.android.dice.dispatchers
 
-import com.android.dice.FileReader
+import com.android.dice.utils.FileReader
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.RecordedRequest

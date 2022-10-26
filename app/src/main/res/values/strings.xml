@@ -16,4 +16,5 @@
     <string name="tags">Tags</string>
     <string name="back_button">Back Button</string>
     <string name="artist_details">Artist Details</string>
+    <string name="albums">Albums</string>
 </resources>
