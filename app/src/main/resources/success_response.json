@@ -1,0 +1,777 @@
+{
+  "created": "2022-10-26T07:46:13.381Z",
+  "count": 30,
+  "offset": 0,
+  "artists": [
+    {
+      "id": "a9ae7d4b-10f0-4da8-8b8c-21722a074a54",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 100,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Davido",
+      "sort-name": "Davido",
+      "gender": "male",
+      "country": "NG",
+      "area": {
+        "id": "1e23d84b-202e-3fc8-8c49-debc71e9eb16",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Nigeria",
+        "sort-name": "Nigeria",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Atlanta",
+        "sort-name": "Atlanta",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "isnis": [
+        "0000000462743379"
+      ],
+      "life-span": {
+        "begin": "1992-11-21",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Adeleke, David Adedeji",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "David Adedeji Adeleke",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Davido",
+          "name": "Davido",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "electronic"
+        },
+        {
+          "count": 2,
+          "name": "hip hop"
+        },
+        {
+          "count": 3,
+          "name": "afrobeat"
+        },
+        {
+          "count": 1,
+          "name": "nigeria"
+        },
+        {
+          "count": 1,
+          "name": "davido"
+        },
+        {
+          "count": 1,
+          "name": "skelewu"
+        },
+        {
+          "count": 1,
+          "name": "gobe"
+        },
+        {
+          "count": 1,
+          "name": "nigeria music"
+        },
+        {
+          "count": 1,
+          "name": "davido adeleke"
+        },
+        {
+          "count": 1,
+          "name": "wizkid"
+        }
+      ]
+    },
+    {
+      "id": "4f073a35-f71c-4763-ab81-dbdcff34f02f",
+      "score": 81,
+      "name": "Dj Davido",
+      "sort-name": "Dj Davido",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "73152a92-6465-409f-9750-b468035216a7",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 81,
+      "name": "Davido Musgrovini",
+      "sort-name": "Musgrovini, Davido",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "b4209bc6-ad50-4f97-aec1-d162f222018f",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 70,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "David Dewaele",
+      "sort-name": "Dewaele, David",
+      "gender": "male",
+      "country": "BE",
+      "area": {
+        "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Belgium",
+        "sort-name": "Belgium",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "45125c6a-db29-4300-bd26-9ff9ed24a3e7",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Ghent",
+        "sort-name": "Ghent",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "ipis": [
+        "00268598109"
+      ],
+      "isnis": [
+        "0000000130077066"
+      ],
+      "life-span": {
+        "begin": "1975-05-24",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Davido Sulwacce",
+          "name": "Davido Sulwacce",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "25ffbc46-a178-4e03-bfe0-d02c84944866",
+      "score": 45,
+      "name": "WurlD",
+      "sort-name": "WurlD",
+      "disambiguation": "feat. with DaVido",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "a550abe0-3d1c-449e-909c-9eaa6e60bb5c",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 40,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Mario Davidovsky",
+      "sort-name": "Davidovsky, Mario",
+      "gender": "male",
+      "country": "AR",
+      "area": {
+        "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Argentina",
+        "sort-name": "Argentina",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "isnis": [
+        "0000000081605175"
+      ],
+      "life-span": {
+        "begin": "1934-03-04",
+        "end": "2019-08-23",
+        "ended": true
+      }
+    },
+    {
+      "id": "76167fce-b86b-48fb-80ff-5e40ac2a4804",
+      "type": "Other",
+      "type-id": "ac897045-5043-3294-969b-187360e45d86",
+      "score": 40,
+      "name": "DMW",
+      "sort-name": "DMW",
+      "disambiguation": "Davido's music label associated acts",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "60b26f8d-9400-4062-b884-1933298421f4",
+      "score": 39,
+      "name": "Davidovitch",
+      "sort-name": "Davidovitch",
+      "country": "CH",
+      "area": {
+        "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Switzerland",
+        "sort-name": "Switzerland",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "04feebed-0ef5-417a-bfa6-863000baaea6",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Dov Davidoff",
+      "sort-name": "Davidoff, Dov",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "ce98b6fa-1745-4dcd-baf9-9874b82d481b",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "PC Davidoff",
+      "sort-name": "PC Davidoff",
+      "gender": "male",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "b4ea984e-09bf-4edf-80d6-2ffd95d3a81d",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "name": "DJ Davidoff",
+      "sort-name": "Davidoff, DJ",
+      "country": "BE",
+      "area": {
+        "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Belgium",
+        "sort-name": "Belgium",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Belgian DJ & producer",
+      "life-span": {
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Van Gestel, David",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "David Van Gestel",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "ba4371f8-7cdd-4f31-9fb4-dc841c75a701",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Jacques Davidovici",
+      "sort-name": "Davidovici, Jacques",
+      "gender": "male",
+      "country": "FR",
+      "area": {
+        "id": "08310658-51eb-3801-80de-5a0739207115",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "France",
+        "sort-name": "France",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Paris",
+        "sort-name": "Paris",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "ipis": [
+        "00036789149"
+      ],
+      "isnis": [
+        "0000000059334233"
+      ],
+      "life-span": {
+        "begin": "1957-06-12",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Davidovici, Jacques Hugues",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Jacques Hugues Davidovici",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "4a4fe83b-d7ff-4dd0-89f3-52ff18b4a145",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Dimitri Davidoff",
+      "sort-name": "Davidoff, Dimitri",
+      "gender": "male",
+      "country": "DE",
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Germany",
+        "sort-name": "Germany",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "0a4e9d9f-a189-4ff4-beaa-4c7789fbae38",
+      "score": 39,
+      "name": "DavidOrr",
+      "sort-name": "DavidOrr",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "ba8a9795-1ee0-4b6c-9108-280a0dcaf165",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Davidov",
+      "sort-name": "Davidov",
+      "gender": "male",
+      "country": "BE",
+      "area": {
+        "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Belgium",
+        "sort-name": "Belgium",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Belgian DJ David Naessens",
+      "life-span": {
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Naessens, David",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "David Naessens",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "615254e6-8414-4d99-961c-9050ef09c9f1",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "name": "Evelyne Davidovitch",
+      "sort-name": "Davidovitch, Evelyne",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "eeac4ffd-24db-4f5b-9ec9-3e1c4939b52b",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "name": "Solomon Davidoff",
+      "sort-name": "Davidoff, Solomon",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "72a5d54c-ba73-4b53-9c4b-20890b67c358",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "name": "Denis Davidov",
+      "sort-name": "Denis Davidov",
+      "disambiguation": "electronic music producer",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "4b046ca2-b477-4006-bdaf-8c9157e60834",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Vera Davidone",
+      "sort-name": "Davidone, Vera",
+      "gender": "female",
+      "country": "LV",
+      "area": {
+        "id": "66eb3e73-d69e-3581-9a23-a73b4c64c8dd",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Latvia",
+        "sort-name": "Latvia",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1923-03-13",
+        "end": "2006",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Davidone, V.",
+          "name": "V. Davidone",
+          "locale": "lv",
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "latvian"
+        }
+      ]
+    },
+    {
+      "id": "afd1ba54-858f-4c93-bb09-fa3bc5a27c67",
+      "score": 39,
+      "name": "Capitán Davidoff",
+      "sort-name": "Capitàn Davidoff",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "7305ac45-d55e-4c50-b5b4-c969cce017fe",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Myriam Davidovici",
+      "sort-name": "Davidovici, Myriam",
+      "gender": "female",
+      "disambiguation": "aka \"Cécilia\"",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "da1da59c-9459-4490-b711-72eff3e3a473",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "name": "Saar Davidov",
+      "sort-name": "Davidov, Saar",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "c7ab8b3b-049a-45d9-974a-593ad8a67598",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Judith Davidoff",
+      "sort-name": "Davidoff, Judith",
+      "gender": "female",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "732e0e53-3c0f-4afc-b844-337b7da010b8",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Chelsea",
+        "sort-name": "Chelsea",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "end-area": {
+        "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+        "type": "District",
+        "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+        "name": "Manhattan",
+        "sort-name": "Manhattan",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "viol and cello player",
+      "isnis": [
+        "0000000023590702",
+        "0000000466749591"
+      ],
+      "life-span": {
+        "begin": "1927-10-21",
+        "end": "2021-12-19",
+        "ended": true
+      }
+    },
+    {
+      "id": "07a787f1-bcea-4498-82eb-a656d70603d2",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Steve Davidowski",
+      "sort-name": "Davidowski, Steve",
+      "gender": "male",
+      "disambiguation": "Dixie Dregs keyboard player",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "d4c4a02f-415b-4e28-b6e5-a32e121086f5",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Oleg Davidovich",
+      "sort-name": "Davidovich, Oleg",
+      "gender": "male",
+      "country": "EE",
+      "area": {
+        "id": "e1c1215f-dcc0-35b4-b840-d2ca2151593b",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Estonia",
+        "sort-name": "Estonia",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "isnis": [
+        "0000000407560713"
+      ],
+      "life-span": {
+        "begin": "1964-07-25",
+        "ended": null
+      }
+    },
+    {
+      "id": "c0c73619-3346-459f-802c-cb276a6e89ad",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Tom Davidov",
+      "sort-name": "Davidov, Tom",
+      "gender": "male",
+      "country": "IL",
+      "area": {
+        "id": "03691455-bb46-37e3-91d2-cb064a35ffcc",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Israel",
+        "sort-name": "Israel",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Psychedelic trance artist",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "bda86a16-dcf7-4a02-98ac-5d0f15c08dbe",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Vitālijs Davidovskis",
+      "sort-name": "Davidovskis, Vitālijs",
+      "gender": "male",
+      "country": "LV",
+      "area": {
+        "id": "66eb3e73-d69e-3581-9a23-a73b4c64c8dd",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Latvia",
+        "sort-name": "Latvia",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "latvian"
+        }
+      ]
+    },
+    {
+      "id": "08136b3a-9079-4393-84cf-dc6e6475457a",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Ivars Davidovičs",
+      "sort-name": "Davidovičs, Ivars",
+      "gender": "male",
+      "country": "LV",
+      "area": {
+        "id": "66eb3e73-d69e-3581-9a23-a73b4c64c8dd",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Latvia",
+        "sort-name": "Latvia",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "4ad3452d-bf89-42ad-a384-5dd421f4dd7e",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Robert Davidovici",
+      "sort-name": "Davidovici, Robert",
+      "gender": "male",
+      "disambiguation": "US classical violinist",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "cbdf0a24-e9af-4211-98e9-db075cec052b",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Tanya Davidow",
+      "sort-name": "Davidow, Tanya",
+      "gender": "female",
+      "area": {
+        "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Berlin",
+        "sort-name": "Berlin",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "cd4fadac-d701-3401-8516-420de2cb4e5c",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Namibia",
+        "sort-name": "Namibia",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Freelance photographer",
+      "life-span": {
+        "ended": null
+      }
+    }
+  ]
+}

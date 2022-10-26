@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dice</string>
+    <string name="enter_search_query">Enter search query</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="search_for_artists">Search for artists</string>
+    <string name="retry">Retry</string>
+    <string name="artist_search">Artist Search</string>
+    <string name="search_result">Search Result</string>
+    <string name="request_limit_reached">Request Limit Reached</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="type">Type</string>
+    <string name="country">Country</string>
+    <string name="gender">Gender</string>
+    <string name="score">Score</string>
+    <string name="disambiguation">Disambiguation</string>
+    <string name="tags">Tags</string>
+    <string name="back_button">Back Button</string>
+    <string name="artist_details">Artist Details</string>
+</resources>
