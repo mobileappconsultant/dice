@@ -2,6 +2,7 @@ package com.android.dice.di
 
 import androidx.paging.PagingConfig
 import com.android.dice.data.api.MusicApi
+import com.android.dice.data.api.interceptor.HeaderInterceptor
 import com.android.dice.utils.Constants
 import com.android.dice.utils.DefaultDispatcherProvider
 import com.android.dice.utils.DispatcherProvider
@@ -49,6 +50,7 @@ open class NetworkModule {
     fun provideHttpClient(httpLoggingInterceptor: HttpLoggingInterceptor): OkHttpClient {
         return OkHttpClient.Builder()
             .addInterceptor(httpLoggingInterceptor)
+            .addInterceptor(HeaderInterceptor())
             .connectTimeout(CONNECT_TIMEOUT, TimeUnit.MINUTES)
             .build()
     }
