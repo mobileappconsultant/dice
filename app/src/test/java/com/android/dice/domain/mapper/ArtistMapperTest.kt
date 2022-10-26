@@ -1,9 +1,11 @@
 package com.android.dice.domain.mapper
 
+import com.android.dice.data.model.Area
 import com.android.dice.data.model.ArtistSchema
 import com.android.dice.data.model.Tag
 import com.android.dice.domain.model.ArtistDomain
 import com.android.dice.ui.model.Artist
+import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.*
@@ -24,7 +26,7 @@ class ArtistMapperTest {
     private val mockedType = "type"
     private val mockedScore = 150
 
-    private val mockedSearchSchema = mockk<ArtistSchema>().apply {
+    private val mockedSearchSchema = mockk<ArtistSchema>(relaxed = true).apply {
         every { id } returns mockedId
         every { name } returns mockedName
         every { country } returns mockedCountry
@@ -33,6 +35,9 @@ class ArtistMapperTest {
         every { tags } returns mockedTags
         every { score } returns mockedScore
         every { type } returns mockedType
+        every { area } returns mockk<Area>().apply {
+            coEvery { name } returns mockedCountry
+        }
     }
 
     private val mockedSearchDomain = ArtistDomain(
